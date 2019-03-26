@@ -10,6 +10,7 @@
   </head>
 
   <body>
+  <!-- This menu bar will show in every html.erb page -->
   <nav class="navbar navbar-expand-md navbar navbar-light fixed-top" style="background-color: #28a745;">
   <a class="navbar-brand"<%= link_to "Gaslite States", about_path %></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +30,6 @@
 </nav>
 <hr>
 <hr>
-<hr>
 
 <div class="container"
 
@@ -38,7 +38,7 @@
        <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
-  
+  <!-- small footer with copy right -->
   <footer>
      <div class="card bg-success" style="background-color: #28a745, high: 4px;"><br> 
         <p class="text-center ">@copy right 2019 </p>
