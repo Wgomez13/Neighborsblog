@@ -24,3 +24,5 @@ Requirements:
   *It must include a README file located at the top level directory of your project providing the following: A brief description of your project’s purpose - this is so the user knows what your project is about Instructions on any special requirements to run your project. This typically will involve any installations needed by the user, how to start the web server, and how to access the running application 
   
   *Your project code is on your GitHub account in its own repository
+
+  * To be abel to use the CRUD in my project you need to login with a email and a password it dosn't have to be a real email and the password can be 123456 or whatever you like
